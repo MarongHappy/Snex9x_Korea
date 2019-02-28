@@ -1,0 +1,1824 @@
+# Snes9x-gtk translation file.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FIRST AUTHOR <tsukuyomisan@gmail.com>, 2009.
+# maronghappy <daemul72@gmail.com>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: Snex9x Korean Translation PO file\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-26 16:43-0600\n"
+"PO-Revision-Date: 2019-03-01 00:58+0900\n"
+"Last-Translator: JungHee Lee <daemul72@gmail.com>\n"
+"Language-Team: MarongHappy <daemul72@gmail.com>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: src/gtk_binding.cpp:243
+#, c-format
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: src/gtk_binding.cpp:258
+#, c-format
+msgid "Keyboard %s%s%s%s"
+msgstr "키보드 %s%s%s%s"
+
+#: src/gtk_binding.cpp:269
+#, c-format
+msgid "Axis %u %s %u%%"
+msgstr "축 %u %s %u%%"
+
+#: src/gtk_binding.cpp:274
+#, c-format
+msgid "Button %u"
+msgstr "버튼 %u"
+
+#: src/gtk_binding.cpp:276
+#, c-format
+msgid "Joystick %u %s"
+msgstr "조이스틱 %u %s"
+
+#: src/gtk_binding.cpp:281
+#, c-format
+msgid "Unset"
+msgstr "미설정"
+
+#: src/gtk_cheat.cpp:31 src/gtk_s9xwindow.cpp:805 src/gtk_s9xwindow.cpp:936
+#: src/gtk_s9xwindow.cpp:1233
+msgid "Error"
+msgstr "오류"
+
+#: src/gtk_cheat.cpp:161
+msgid "Description"
+msgstr "설명"
+
+#: src/gtk_cheat.cpp:172
+msgid "Cheat"
+msgstr "치트"
+
+#: src/gtk_cheat.cpp:343 src/gtk_cheat.cpp:362 src/gtk_cheat.cpp:532
+msgid "No description"
+msgstr "설명 없음"
+
+#: src/gtk_cheat.cpp:366 src/gtk_cheat.cpp:537
+msgid "Couldn't find any cheat codes in input."
+msgstr "입력된 치트 코드를 찾을 수 없습니다."
+
+#: src/gtk_cheat.cpp:472
+msgid "Couldn't Find Cheats Database"
+msgstr "치트 데이터베이스를 찾을 수 없음"
+
+#: src/gtk_cheat.cpp:473
+msgid "No Matching Game Found"
+msgstr "일치하는 게임을 찾을 수 없음"
+
+#: src/gtk_cheat.cpp:476
+msgid ""
+"The database file <b>cheats.bml</b> was not found. It is normally installed "
+"with Snes9x, but you may also place a custom copy in your configuration or "
+"cheats directory."
+msgstr ""
+"데이터베이스 파일 <b>cheats.bml</b>을 찾을 수 없습니다. 일반적으로 Snes9x와 "
+"함께 설치되지만, 구성 또는 치트 디렉토리에 사용자정의 사본을 둘 수도 있습니"
+"다."
+
+#: src/gtk_cheat.cpp:478
+msgid ""
+"No matching game was found in the databases. If you are using a non-official "
+"translation or modified copy, you may be able to find and manually enter the "
+"codes."
+msgstr ""
+"데이터베이스에서 일치하는 게임을 찾을 수 없습니다. 비공식 번역 또는 수정본을 "
+"사용하는 경우 코드를 찾아 수동으로 입력할 수 있습니다."
+
+#: src/gtk_config.cpp:437
+#, c-format
+msgid "Couldn't create config directory: %s\n"
+msgstr "환경설정 디렉토리를 생성 할 수 없습니다 : %s\n"
+
+#: src/gtk_netplay.cpp:62
+msgid "Connection Error"
+msgstr "연결 오류"
+
+#: src/gtk_preferences.cpp:18
+msgid "Same location as current game"
+msgstr "ROM 파일과 동일한 폴더"
+
+#: src/gtk_preferences.cpp:408
+msgid "Current joystick centers have been saved."
+msgstr "현재 조이스틱 센터가 저장되었습니다."
+
+#: src/gtk_preferences.cpp:409
+msgid "Calibration Complete"
+msgstr "보정 완료"
+
+#: src/gtk_preferences.cpp:451
+msgid "Snes9x version: "
+msgstr "Snes9x 버전 : "
+
+#: src/gtk_preferences.cpp:452
+msgid "GTK+ port version: "
+msgstr "GTK+ 포트 버전 : "
+
+#: src/gtk_preferences.cpp:454
+msgid "English localization by Brandon Wright"
+msgstr "한국어 현지화 : 이정희 (MarongHappy)"
+
+#: src/gtk_preferences.cpp:878
+msgid ""
+"Changing the SRAM directory with a game loaded will replace the .srm file in "
+"the selected directory with the SRAM from the running game. If this is not "
+"what you want, click 'cancel'."
+msgstr ""
+"게임이 로드된 상태에서 SRAM 디렉토리를 변경하면 선택한 디렉토리의 .srm 파일"
+"이 실행중인 게임의 SRAM으로 바뀝니다. 원하는 항목이 아닌 경우 '취소'를 클릭하"
+"십시오."
+
+#: src/gtk_preferences.cpp:879
+msgid "Warning: Possible File Overwrite"
+msgstr "경고: 파일 덮어쓰기 가능"
+
+#: src/gtk_preferences.cpp:960
+msgid "Select Folder"
+msgstr "폴더 선택"
+
+#: src/gtk_preferences.cpp:1037
+msgid "HQ2x"
+msgstr "HQ2x"
+
+#: src/gtk_preferences.cpp:1038
+msgid "HQ3x"
+msgstr "HQ3x"
+
+#: src/gtk_preferences.cpp:1039
+msgid "HQ4x"
+msgstr "HQ4x"
+
+#: src/gtk_preferences.cpp:1044
+msgid "2xBRZ"
+msgstr "2xBRZ"
+
+#: src/gtk_preferences.cpp:1045
+msgid "3xBRZ"
+msgstr "3xBRZ"
+
+#: src/gtk_preferences.cpp:1046
+msgid "4xBRZ"
+msgstr "4xBRZ"
+
+#: src/gtk_preferences.cpp:1051
+msgid "None - Use software scaler"
+msgstr "사용안함 - 소프트웨어 스케일러 사용"
+
+#: src/gtk_preferences.cpp:1055
+msgid "OpenGL - Use 3D graphics hardware"
+msgstr "OpenGL - 3D 그래픽 하드웨어 사용"
+
+#: src/gtk_preferences.cpp:1059
+msgid "XVideo - Use hardware video blitter"
+msgstr "XVideo - 하드웨어 비디오 블리터 사용"
+
+#: src/gtk_preferences.cpp:1065
+msgid "PortAudio"
+msgstr "PortAudio"
+
+#: src/gtk_preferences.cpp:1069
+msgid "Open Sound System"
+msgstr "Open Sound System"
+
+#: src/gtk_preferences.cpp:1072
+msgid "SDL"
+msgstr "SDL"
+
+#: src/gtk_preferences.cpp:1075
+msgid "ALSA"
+msgstr "ALSA"
+
+#: src/gtk_preferences.cpp:1079
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#: src/gtk_s9x.cpp:199
+#, c-format
+msgid "Error opening: %s\n"
+msgstr "여는 동안 오류 발생: %s\n"
+
+#: src/gtk_s9xwindow.cpp:804
+msgid "Couldn't load files."
+msgstr "파일을 읽을 수 없습니다."
+
+#: src/gtk_s9xwindow.cpp:833
+msgid "Open SNES Movie"
+msgstr "SNES 동영상 열기"
+
+#: src/gtk_s9xwindow.cpp:852
+msgid "New SNES Movie"
+msgstr "새로운 SNES 동영상"
+
+#: src/gtk_s9xwindow.cpp:865
+msgid "SNES Movies"
+msgstr "SNES 동영상"
+
+#: src/gtk_s9xwindow.cpp:873 src/gtk_s9xwindow.cpp:1021
+#: src/gtk_s9xwindow.cpp:1141 src/gtk_s9xwindow.cpp:1206
+msgid "All Files"
+msgstr "모든 파일"
+
+#: src/gtk_s9xwindow.cpp:934
+#, c-format
+msgid "Couldn't load file '%s'"
+msgstr "'%s' 파일을 읽을 수 없음"
+
+#: src/gtk_s9xwindow.cpp:993
+msgid "Load Saved State"
+msgstr "저장된 게임 불러오기"
+
+#: src/gtk_s9xwindow.cpp:1004 src/gtk_s9xwindow.cpp:1124 src/snes9x.ui:8349
+msgid "Save States"
+msgstr "게임 저장"
+
+#: src/gtk_s9xwindow.cpp:1061
+#, c-format
+msgid "The current frame in the movie is <b>%d</b>."
+msgstr "동영상의 현재 프레임은 <b>%d</b>입니다."
+
+#: src/gtk_s9xwindow.cpp:1111
+msgid "Save State"
+msgstr "게임 저장"
+
+#: src/gtk_s9xwindow.cpp:1187
+msgid "Save SPC file..."
+msgstr "SPC 파일 저장..."
+
+#: src/gtk_s9xwindow.cpp:1200
+msgid "SPC Files"
+msgstr "SPC 파일"
+
+#: src/gtk_s9xwindow.cpp:1231
+#, c-format
+msgid "Couldn't save SPC file '%s'"
+msgstr "SPC 파일 '%s'을(를) 저장할 수 없음"
+
+#: src/gtk_s9xwindow.cpp:1301
+#, c-format
+msgid "%sHosting NetPlay - %s"
+msgstr "%s넷플레이 호스팅 - %s"
+
+#: src/gtk_s9xwindow.cpp:1302 src/gtk_s9xwindow.cpp:1310
+#: src/gtk_s9xwindow.cpp:1323
+msgid "Paused - "
+msgstr "일시 중지됨 - "
+
+#: src/gtk_s9xwindow.cpp:1309
+#, c-format
+msgid "%s%s on NetPlay %s:%d - Player %d"
+msgstr "넷플레이 %s에서 %s%s : %d - 플레이어 %d"
+
+#: src/gtk_s9xwindow.cpp:1346
+#, c-format
+msgid ""
+"<b>Information for %s</b>\n"
+"\n"
+"<i>Name:</i> %s\n"
+"<i>Speed:</i> %02X/%s\n"
+"<i>Map:</i> %s\n"
+"<i>Type:</i> %02x\n"
+"<i>Contents:</i> %s\n"
+"<i>ROM Size:</i> %s\n"
+"<i>Calculated Size:</i> %d\n"
+"<i>SRAM Size:</i> %s\n"
+"<i>Header Checksum:</i> %04X\n"
+"<i>Checksum Compliment:</i> %04X\n"
+"<i>Actual Checksum:</i> %04X\n"
+"<i>Video:</i> %s\n"
+"<i>CRC32:</i> %08X\n"
+"<i>Revision:</i> %s<b><i>%s</i></b>"
+msgstr ""
+"<b>%s</b>\n"
+"에 대한 정보\n"
+"<i> 이름:</i> %s\n"
+"<i> 속도:</i> %02X/%s\n"
+"<i>맵:</i> %s\n"
+"<i>유형:</i> %02x\n"
+"<i>콘텐츠:</i> %s\n"
+"<i>ROM 크기:</i> %s\n"
+"<i>계산된 크기:</i> %d\n"
+"<i>SRAM 크기:</i> %s\n"
+"<i> 헤더 체크섬:</i> %04X\n"
+"<i> 체크섬 보완:</i> %04X\n"
+"<i> 실제 체크섬:</i> %04X\n"
+"<i>비디오:</i> %s\n"
+"<i>CRC32:</i> %08X\n"
+"<i> 리비전:</i> %s <b><i>%s </i></b>"
+
+#: src/gtk_s9xwindow.cpp:1384
+msgid ""
+"\n"
+"\n"
+"This ROM has been modified or damaged"
+msgstr ""
+"\n"
+"\n"
+"이 ROM은 수정되었거나 손상되었음"
+
+#: src/gtk_s9xwindow.cpp:1386
+msgid "File Information"
+msgstr "파일 정보"
+
+#: src/gtk_shader_parameters.cpp:99
+msgid "Export Shader Preset to:"
+msgstr "셰이더 프초기화 내보내기 :"
+
+#: src/gtk_shader_parameters.cpp:124
+msgid "Shader Preset"
+msgstr "셰이더 프초기화"
+
+#: src/gtk_shader_parameters.cpp:169
+msgid "GLSL Shader Parameters"
+msgstr "GLSL 셰이더 매개변수"
+
+#: src/snes9x.ui:9
+msgid "About Snes9x"
+msgstr "Snes9x에 대하여"
+
+#: src/snes9x.ui:48
+msgid "label106"
+msgstr "label106"
+
+#: src/snes9x.ui:271
+msgid "Snes9x Cheats"
+msgstr "Snes9x 치트"
+
+#: src/snes9x.ui:389
+msgid "Update Cheat"
+msgstr "치트 업데이트"
+
+#: src/snes9x.ui:404
+msgid "Disable All"
+msgstr "모두 사용안함"
+
+#: src/snes9x.ui:420
+msgid "Delete All Cheats"
+msgstr "모든 치트 삭제"
+
+#: src/snes9x.ui:435
+msgid "Search Cheat Database"
+msgstr "치트 데이터베이스 검색"
+
+#: src/snes9x.ui:477
+msgid "Code:"
+msgstr "코드:"
+
+#: src/snes9x.ui:514
+msgid "Description:"
+msgstr "설명:"
+
+#: src/snes9x.ui:561
+msgid "Advance to Frame"
+msgstr "프레임으로 이동"
+
+#: src/snes9x.ui:630
+msgid "The current frame in the movie is"
+msgstr "동영상의 현재 프레임은"
+
+#: src/snes9x.ui:651
+msgid "Fast-forward to frame"
+msgstr "프레임으로 빠르게 이동"
+
+#: src/snes9x.ui:812
+msgid "Game Genie"
+msgstr "게임 지니"
+
+#: src/snes9x.ui:815
+msgid "Pro Action Replay"
+msgstr "프로액션 리플레이"
+
+#: src/snes9x.ui:818
+msgid "Goldfinger"
+msgstr "골드핑거"
+
+#: src/snes9x.ui:829 src/snes9x.ui:852
+msgid "12.5%"
+msgstr "12.5%"
+
+#: src/snes9x.ui:832 src/snes9x.ui:855
+msgid "25%"
+msgstr "25%"
+
+#: src/snes9x.ui:835 src/snes9x.ui:858
+msgid "50%"
+msgstr "50%"
+
+#: src/snes9x.ui:838 src/snes9x.ui:861
+msgid "100%"
+msgstr "100%"
+
+#: src/snes9x.ui:849
+msgid "0%"
+msgstr "0%"
+
+#: src/snes9x.ui:872 src/snes9x.ui:1885
+msgid "None"
+msgstr "없음"
+
+#: src/snes9x.ui:875
+msgid "SuperEagle"
+msgstr "SuperEagle"
+
+#: src/snes9x.ui:878
+msgid "2xSaI"
+msgstr "2xSaI"
+
+#: src/snes9x.ui:881
+msgid "Super2xSaI"
+msgstr "Super2xSaI"
+
+#: src/snes9x.ui:884
+msgid "EPX"
+msgstr "EPX"
+
+#: src/snes9x.ui:887
+msgid "EPX Smooth"
+msgstr "EPX Smooth"
+
+#: src/snes9x.ui:890
+msgid "Blargg's NTSC"
+msgstr "Blargg's NTSC"
+
+#: src/snes9x.ui:893
+msgid "Scanlines"
+msgstr "주사선"
+
+#: src/snes9x.ui:896
+msgid "Simple2x"
+msgstr "Simple2x"
+
+#: src/snes9x.ui:899
+msgid "Simple3x"
+msgstr "Simple3x"
+
+#: src/snes9x.ui:902
+msgid "Simple4x"
+msgstr "Simple4x"
+
+#: src/snes9x.ui:913
+msgid "8:7 Square pixels"
+msgstr "8:7 정방향 도트"
+
+#: src/snes9x.ui:916
+msgid "8:7 Square pixels, integer multiples"
+msgstr ""
+
+#: src/snes9x.ui:919
+msgid "4:3 SNES correct aspect"
+msgstr "4:3 SNES 화면비율"
+
+#: src/snes9x.ui:922
+msgid "4:3 SNES correct aspect, integer multiples"
+msgstr ""
+
+#: src/snes9x.ui:925
+msgid "8*8:7*7 NTSC"
+msgstr ""
+
+#: src/snes9x.ui:928
+msgid "8*8:7*7 NTSC, integer multiples"
+msgstr ""
+
+#: src/snes9x.ui:945
+msgid "Merge adjacent pairs"
+msgstr ""
+
+#: src/snes9x.ui:948
+msgid "Output directly"
+msgstr "직접 출력"
+
+#: src/snes9x.ui:951
+msgid "Scale low-resolution screens"
+msgstr "저해상도 화면 크기 조정"
+
+#: src/snes9x.ui:962 src/snes9x.ui:1000
+msgid "1"
+msgstr "1"
+
+#: src/snes9x.ui:965 src/snes9x.ui:1003
+msgid "2"
+msgstr "2"
+
+#: src/snes9x.ui:968 src/snes9x.ui:1006
+msgid "3"
+msgstr "3"
+
+#: src/snes9x.ui:971 src/snes9x.ui:1009
+msgid "4"
+msgstr "4"
+
+#: src/snes9x.ui:974 src/snes9x.ui:1012
+msgid "5"
+msgstr "5"
+
+#: src/snes9x.ui:977 src/snes9x.ui:1015
+msgid "1+"
+msgstr "1+"
+
+#: src/snes9x.ui:980 src/snes9x.ui:1018
+msgid "2+"
+msgstr "2+"
+
+#: src/snes9x.ui:983 src/snes9x.ui:1021
+msgid "3+"
+msgstr "3+"
+
+#: src/snes9x.ui:986 src/snes9x.ui:1024
+msgid "4+"
+msgstr "4+"
+
+#: src/snes9x.ui:989 src/snes9x.ui:1027
+msgid "5+"
+msgstr "5+"
+
+#: src/snes9x.ui:1038
+msgid "Toggle the menu bar"
+msgstr "메뉴 모음 표시/숨기기"
+
+#: src/snes9x.ui:1041
+msgid "Exit fullscreen mode"
+msgstr "전체 화면 모드 종료"
+
+#: src/snes9x.ui:1044 src/snes9x.ui:6876
+msgid "Quit Snes9x"
+msgstr "Snes9x 종료"
+
+#: src/snes9x.ui:1055
+msgid "Timer-based"
+msgstr "타이머 기반"
+
+#: src/snes9x.ui:1058
+msgid "Timer-based with automatic frame-skipping"
+msgstr "타이머 기반 (자동 프레임 스키핑 포함)"
+
+#: src/snes9x.ui:1061
+msgid "Sound buffer synchronization"
+msgstr "사운드 버퍼 동기화"
+
+#: src/snes9x.ui:1064
+msgid "No throttling, but can use vsync to control speed"
+msgstr "조절은 안되지만, 수직동기화를 사용하여 속도를 제어할 수 있음"
+
+#: src/snes9x.ui:1075
+msgid "48000 hz"
+msgstr "48000 Hz"
+
+#: src/snes9x.ui:1078
+msgid "44100 hz"
+msgstr "44100 Hz"
+
+#: src/snes9x.ui:1081
+msgid "32000 hz"
+msgstr "32000 Hz"
+
+#: src/snes9x.ui:1084
+msgid "22050 hz"
+msgstr "22050 Hz"
+
+#: src/snes9x.ui:1087
+msgid "16000 hz"
+msgstr "16000 Hz"
+
+#: src/snes9x.ui:1090
+msgid "11025 hz"
+msgstr "11025 Hz"
+
+#: src/snes9x.ui:1093
+msgid "8000 hz"
+msgstr "8000 Hz"
+
+#: src/snes9x.ui:1096
+msgid "0 hz"
+msgstr "0 Hz"
+
+#: src/snes9x.ui:1113
+msgid "16-bit (GL_RGB)"
+msgstr "16-비트 (GL_RGB)"
+
+#: src/snes9x.ui:1116
+msgid "32-bit (GL_BGRA)"
+msgstr "32-비트 (GL_BGRA)"
+
+#: src/snes9x.ui:1129
+msgid "Snes9x"
+msgstr "Snes9x"
+
+#: src/snes9x.ui:1149
+msgid "_File"
+msgstr "파일(_F)"
+
+#: src/snes9x.ui:1156
+msgid "_Open ROM Image..."
+msgstr "ROM 이미지 열기(_O)..."
+
+#: src/snes9x.ui:1170
+msgid "Open Recent"
+msgstr "최근 열린 ROM"
+
+#: src/snes9x.ui:1182
+msgid "Open with _NetPlay..."
+msgstr "넷플레이로 열기(_N) ..."
+
+#: src/snes9x.ui:1185
+msgid "Open a ROM to use with NetPlay"
+msgstr "넷플레이를 사용하여 ROM 열기"
+
+#: src/snes9x.ui:1196
+msgid "Open _MultiCart..."
+msgstr "멀티 ROM 열기(_M)..."
+
+#: src/snes9x.ui:1211
+msgid "_Load State"
+msgstr "게임 불러오기(_L)"
+
+#: src/snes9x.ui:1221 src/snes9x.ui:1355
+msgid "Slot _0"
+msgstr "슬롯 0 (_0)"
+
+#: src/snes9x.ui:1230 src/snes9x.ui:1364
+msgid "Slot _1"
+msgstr "슬롯 1 (_1)"
+
+#: src/snes9x.ui:1239 src/snes9x.ui:1373
+msgid "Slot _2"
+msgstr "슬롯 2 (_2)"
+
+#: src/snes9x.ui:1248 src/snes9x.ui:1382
+msgid "Slot _3"
+msgstr "슬롯 3 (_3)"
+
+#: src/snes9x.ui:1257 src/snes9x.ui:1391
+msgid "Slot _4"
+msgstr "슬롯 4 (_4)"
+
+#: src/snes9x.ui:1266 src/snes9x.ui:1400
+msgid "Slot _5"
+msgstr "슬롯 5 (_5)"
+
+#: src/snes9x.ui:1275 src/snes9x.ui:1409
+msgid "Slot _6"
+msgstr "슬롯 6 (_6)"
+
+#: src/snes9x.ui:1284 src/snes9x.ui:1418
+msgid "Slot _7"
+msgstr "슬롯 7 (_7)"
+
+#: src/snes9x.ui:1293 src/snes9x.ui:1427
+msgid "Slot _8"
+msgstr "슬롯 8 (_8)"
+
+#: src/snes9x.ui:1302 src/snes9x.ui:1436
+msgid "Slot _9"
+msgstr "슬롯 9 (_9)"
+
+#: src/snes9x.ui:1317
+msgid "From _File..."
+msgstr "파일 읽기(_F)..."
+
+#: src/snes9x.ui:1332
+msgid "_Undo Load State"
+msgstr "게임 불러오기 취소(_U)"
+
+#: src/snes9x.ui:1345
+msgid "_Save State"
+msgstr "게임 저장(_S)"
+
+#: src/snes9x.ui:1451
+msgid "To _File..."
+msgstr "파일 저장하기(_F)..."
+
+#: src/snes9x.ui:1468
+msgid "Save SPC..."
+msgstr "SPC 저장..."
+
+#: src/snes9x.ui:1485
+msgid "Show ROM _Info..."
+msgstr "ROM 정보 표시(_I)..."
+
+#: src/snes9x.ui:1502
+msgid "_Quit"
+msgstr "종료(_Q)"
+
+#: src/snes9x.ui:1519
+msgid "_Emulation"
+msgstr "에뮬레이션(_E)"
+
+#: src/snes9x.ui:1526
+msgid "Run / _Continue"
+msgstr "실행 / 계속(_C)"
+
+#: src/snes9x.ui:1537
+msgid "_Pause"
+msgstr "일시 정지(_P)"
+
+#: src/snes9x.ui:1555
+msgid "Load _Movie..."
+msgstr "동영상 불러오기(_M)..."
+
+#: src/snes9x.ui:1567
+msgid "R_ecord Movie..."
+msgstr "동영상 녹화하기(_E)..."
+
+#: src/snes9x.ui:1579
+msgid "_Stop Recording"
+msgstr "녹화 중지(_S)"
+
+#: src/snes9x.ui:1591
+msgid "_Jump to Frame..."
+msgstr "프레임 건너뛰기(_J)..."
+
+#: src/snes9x.ui:1609
+msgid "Sy_nc Clients"
+msgstr "클라이언트 동기화(_N)"
+
+#: src/snes9x.ui:1626
+msgid "Reset"
+msgstr "초기화"
+
+#: src/snes9x.ui:1638
+msgid "Soft _Reset"
+msgstr "소프트 리셋(_R)"
+
+#: src/snes9x.ui:1655
+msgid "_View"
+msgstr "표시(_V)"
+
+#: src/snes9x.ui:1663
+msgid "_Hide Menu"
+msgstr "메뉴 숨기기(_H)"
+
+#: src/snes9x.ui:1676
+msgid "_Status Bar"
+msgstr "상태 표시줄(_S)"
+
+#: src/snes9x.ui:1689
+msgid "_Change Size"
+msgstr "크기 변경(_C)"
+
+#: src/snes9x.ui:1703
+msgid "_1x"
+msgstr "1x (_1)"
+
+#: src/snes9x.ui:1712
+msgid "_2x"
+msgstr "2x (_2)"
+
+#: src/snes9x.ui:1721
+msgid "_3x"
+msgstr "3x (_3)"
+
+#: src/snes9x.ui:1730
+msgid "_4x"
+msgstr "4x (_4)"
+
+#: src/snes9x.ui:1739
+msgid "_5x"
+msgstr "5x (_5)"
+
+#: src/snes9x.ui:1756
+msgid "_Fullscreen"
+msgstr "전체 화면(_F)"
+
+#: src/snes9x.ui:1773
+msgid "_Options"
+msgstr "옵션(_O)"
+
+#: src/snes9x.ui:1782
+msgid "Controller Ports"
+msgstr "컨트롤러 포트"
+
+#: src/snes9x.ui:1791
+msgid "SNES Port 1"
+msgstr "SNES 포트 1"
+
+#: src/snes9x.ui:1801 src/snes9x.ui:1845
+msgid "Joypad"
+msgstr "조이패드"
+
+#: src/snes9x.ui:1810 src/snes9x.ui:1854
+msgid "Mouse"
+msgstr "마우스"
+
+#: src/snes9x.ui:1820 src/snes9x.ui:1874
+msgid "Superscope"
+msgstr "슈퍼스코프"
+
+#: src/snes9x.ui:1835
+msgid "SNES Port 2"
+msgstr "SNES 포트 2"
+
+#: src/snes9x.ui:1864
+msgid "Multitap"
+msgstr "멀티탭"
+
+#: src/snes9x.ui:1911
+msgid "_Cheats..."
+msgstr "치트(_C)..."
+
+#: src/snes9x.ui:1925
+msgid "_Shader Parameters..."
+msgstr " 매개변수(_S)..."
+
+#: src/snes9x.ui:1941
+msgid "_Preferences..."
+msgstr "환경 설정(_P)..."
+
+#: src/snes9x.ui:1997
+msgid "Open Multiple ROM Images (MultiCart)"
+msgstr "여러 ROM 이미지 열기"
+
+#: src/snes9x.ui:2060
+msgid "Slot A:"
+msgstr "슬롯 A:"
+
+#: src/snes9x.ui:2072
+msgid "Select an Image for Slot A"
+msgstr "슬롯 A의 이미지 선택"
+
+#: src/snes9x.ui:2096
+msgid "Slot B:"
+msgstr "슬롯 B:"
+
+#: src/snes9x.ui:2108
+msgid "Select an Image for Slot B"
+msgstr "슬롯 B의 이미지 선택"
+
+#: src/snes9x.ui:2140
+msgid "Snes9x NetPlay"
+msgstr "Snes9x 넷플레이"
+
+#: src/snes9x.ui:2217
+msgid ""
+"The game chosen will be loaded before connecting. This field can be blank if "
+"the server will send the ROM image"
+msgstr ""
+"연결하기 전에 선택한 게임이 로드 됩니다. 서버에서 ROM 이미지를 보내면 이 필드"
+"는 공백으로 표시 될 수 있습니다"
+
+#: src/snes9x.ui:2232 src/snes9x.ui:3933 src/snes9x.ui:5057 src/snes9x.ui:5072
+#: src/snes9x.ui:5089 src/snes9x.ui:5106 src/snes9x.ui:5123
+msgid "Browse..."
+msgstr "찾아보기..."
+
+#: src/snes9x.ui:2254
+msgid "Clear entry"
+msgstr "입력 지우기"
+
+#: src/snes9x.ui:2274
+msgid "<b>ROM Image</b>"
+msgstr "<b>ROM 이미지</b>"
+
+#: src/snes9x.ui:2303
+msgid "Connect to another computer"
+msgstr "다른 컴퓨터에 연결"
+
+#: src/snes9x.ui:2307
+msgid "Connect to another computer that is running Snes9x NetPlay as a server"
+msgstr "Snes9x NetPlay를 서버로 실행중인 다른 컴퓨터에 연결"
+
+#: src/snes9x.ui:2327
+msgid "Name or IP address:"
+msgstr "이름 또는 IP 주소 :"
+
+#: src/snes9x.ui:2339
+msgid "Domain name or internet protocol address of a remote computer"
+msgstr "원격 컴퓨터의 도메인 이름 또는 인터넷 프로토콜 주소"
+
+#: src/snes9x.ui:2355
+msgid "Port:"
+msgstr "포트:"
+
+#: src/snes9x.ui:2367
+msgid "Connect to specified TCP port on remote computer"
+msgstr "원격 컴퓨터의 지정된 TCP 포트에 연결"
+
+#: src/snes9x.ui:2391
+msgid "Act as a server"
+msgstr "서버 역할"
+
+#: src/snes9x.ui:2395
+msgid ""
+"Host a game on this computer as Player 1, requiring extra throughput to "
+"support multitple users"
+msgstr ""
+"이 컴퓨터에서 게임을 플레이어 1로 호스트 하려면, 다중 사용자 지원을 위한 추"
+"가 처리량이 필요합니다"
+
+#: src/snes9x.ui:2415
+msgid "<b>Server</b>"
+msgstr "<b>서버</b>"
+
+#: src/snes9x.ui:2445
+msgid "Sync using reset"
+msgstr "초기화을 사용하여 동기화"
+
+#: src/snes9x.ui:2449
+msgid ""
+"Reset the game when players join instead of transferring potentially "
+"unreliable freeze states"
+msgstr ""
+"신뢰할 수 없는 고정 상태를 전송하는 대신 플레이어가 참여할 때 게임 초기화"
+
+#: src/snes9x.ui:2460
+msgid "Send ROM image to clients"
+msgstr "클라이언트에 ROM 이미지 보내기"
+
+#: src/snes9x.ui:2464
+msgid ""
+"Send the running game image to players instead of requiring them to have "
+"their own copies"
+msgstr ""
+"플레이어는 게임 이미지가 없어도, 서버에서 실행할 게임 이미지를 각 플레이어에"
+"게 전송합니다"
+
+#: src/snes9x.ui:2482
+msgid "Default port:"
+msgstr "기본 포트:"
+
+#: src/snes9x.ui:2494
+msgid "TCP port used as a connection point for remote clients"
+msgstr "원격 클라이언트의 연결 지점으로 사용되는 TCP 포트"
+
+#: src/snes9x.ui:2525
+msgid "Ask server to pause when"
+msgstr "서버에 일시 중지 요청"
+
+#: src/snes9x.ui:2555
+msgid "frames behind"
+msgstr "프레임 지연시 서버 일시정지"
+
+#: src/snes9x.ui:2578
+msgid "<b>Settings</b>"
+msgstr "<b>설정</b>"
+
+#: src/snes9x.ui:2606
+msgid "Snes9x Preferences"
+msgstr "Snes9x 환경 설정"
+
+#: src/snes9x.ui:2722
+msgid "Use fullscreen on ROM open"
+msgstr "ROM을 열때 전체 화면 사용"
+
+#: src/snes9x.ui:2726
+msgid "Go to fullscreen mode immediately after opening a ROM"
+msgstr "ROM을 연후 전체 화면 모드로 전환합니다"
+
+#: src/snes9x.ui:2738
+msgid "Show frame rate"
+msgstr "프레임 속도 표시"
+
+#: src/snes9x.ui:2753
+msgid "Show pressed keys"
+msgstr "누른 키 표시"
+
+#: src/snes9x.ui:2768
+msgid "Use overscanned height"
+msgstr "오버스캔된 높이 사용"
+
+#: src/snes9x.ui:2772
+msgid "Use SNES extended height. Will probably cause letterboxing"
+msgstr "SNES 확장 높이를 사용 합니다. 레터 박싱의 원인이 될 수 있음"
+
+#: src/snes9x.ui:2789
+msgid "Change fullscreen resolution:"
+msgstr "전체 화면 해상도 변경:"
+
+#: src/snes9x.ui:2793
+msgid "Changes the screen resolution when running Snes9x in fullscreen mode"
+msgstr "전체 화면 모드에서 Snes9x를 실행할 때 화면 해상도가 변경됩니다"
+
+#: src/snes9x.ui:2836
+msgid "Basic Settings"
+msgstr "기본 설정"
+
+#: src/snes9x.ui:2877
+msgid "Scale image to fit window"
+msgstr "창에 맞게 이미지 확장"
+
+#: src/snes9x.ui:2881
+msgid "Scales the image so no black bars are present"
+msgstr "검은색 막대가 없도록 이미지 스케일을 조정합니다"
+
+#: src/snes9x.ui:2901
+msgid "Aspect ratio:"
+msgstr "가로 세로 비율:"
+
+#: src/snes9x.ui:2936
+msgid "Maintain aspect-ratio"
+msgstr "가로 세로 비율 유지"
+
+#: src/snes9x.ui:2940
+msgid "Scales the image as large as possible without distortion"
+msgstr "왜곡 없이 이미지를 최대한 크게 확장합니다"
+
+#: src/snes9x.ui:2957
+msgid "Use "
+msgstr "사용 "
+
+#: src/snes9x.ui:2961
+msgid "Allows scaling and filtering to use multiple processors"
+msgstr "여러 프로세서를 사용할 수 있도록 확장 및 필터링을 허용합니다"
+
+#: src/snes9x.ui:2993
+msgid "threads for filtering and scaling"
+msgstr "필터링 및 스케일링을 위한 스레드"
+
+#: src/snes9x.ui:3017
+msgid "High-resolution effect:"
+msgstr "고해상도 효과 :"
+
+#: src/snes9x.ui:3060
+msgid "Apply scaling filter:"
+msgstr "스케일링 필터 적용 :"
+
+#: src/snes9x.ui:3128
+msgid "Video preset:"
+msgstr "비디오 프초기화 :"
+
+#: src/snes9x.ui:3142
+msgid "Composite"
+msgstr "컴포지트"
+
+#: src/snes9x.ui:3156
+msgid "S-Video"
+msgstr "S단자"
+
+#: src/snes9x.ui:3170
+msgid "RGB"
+msgstr "RGB"
+
+#: src/snes9x.ui:3184
+msgid "Monochrome"
+msgstr "흑백"
+
+#: src/snes9x.ui:3225
+msgid "Artifacts:"
+msgstr "아티팩트:"
+
+#: src/snes9x.ui:3240
+msgid "Sharpness:"
+msgstr "선명도:"
+
+#: src/snes9x.ui:3255
+msgid "Brightness:"
+msgstr "밝기:"
+
+#: src/snes9x.ui:3270
+msgid "Contrast:"
+msgstr "대비:"
+
+#: src/snes9x.ui:3285
+msgid "Saturation:"
+msgstr "채도:"
+
+#: src/snes9x.ui:3300
+msgid "Hue:"
+msgstr "색조:"
+
+#: src/snes9x.ui:3501
+msgid "Gamma:"
+msgstr "감마:"
+
+#: src/snes9x.ui:3516
+msgid "Fringing:"
+msgstr "프린징:"
+
+#: src/snes9x.ui:3531
+msgid "Bleed:"
+msgstr "출혈:"
+
+#: src/snes9x.ui:3546
+msgid "Resolution:"
+msgstr "해상도:"
+
+#: src/snes9x.ui:3576
+msgid "Merge odd and even fields"
+msgstr "홀수 및 짝수 필드 병합"
+
+#: src/snes9x.ui:3598 src/snes9x.ui:3657
+msgid "Scanline intensity:"
+msgstr "스캔 라인 강도:"
+
+#: src/snes9x.ui:3702
+msgid "Scaling"
+msgstr "스케일링"
+
+#: src/snes9x.ui:3744
+msgid "Bilinear-filter output"
+msgstr "이중 선형 필터 출력"
+
+#: src/snes9x.ui:3765
+msgid "Sync to vertical blank"
+msgstr "수직 동기화"
+
+#: src/snes9x.ui:3769
+msgid "Sync the image to the vertical retrace to stop tearing"
+msgstr "찢어짐을 막기 위해 이미지를 수직 귀선과 동기화하십시오"
+
+#: src/snes9x.ui:3781
+msgid "Reduce input lag with glFinish"
+msgstr "glFinish로 입력 지연 줄이기"
+
+#: src/snes9x.ui:3785
+msgid ""
+"Sync the program with the video output after every displayed frame to reduce "
+"input latency"
+msgstr ""
+"표시된 프레임마다 프로그램을 비디오 출력과 동기화하여 입력 지연 시간을 줄입니"
+"다"
+
+#: src/snes9x.ui:3796
+msgid "Reduce input lag with glFenceSync"
+msgstr "glFenceSync로 입력 지연 줄이기"
+
+#: src/snes9x.ui:3800
+msgid ""
+"Sync the program with the video output after every displayed frame to reduce "
+"input latency, but allow GUI events to occur in the meantime"
+msgstr ""
+"표시된 프레임마다 프로그램을 비디오 출력과 동기화하여 입력 지연 시간을 줄이지"
+"만 그 사이에 GUI 이벤트가 발생할 수 있음"
+
+#: src/snes9x.ui:3811
+msgid "Allow non-power-of-two textures"
+msgstr "non-power-of-two 텍스처 허용"
+
+#: src/snes9x.ui:3815
+msgid "Prevents edge artifacts, but can slow performance"
+msgstr "에지 아티팩트를 방지하지만 성능을 저하시킬 수 있습니다"
+
+#: src/snes9x.ui:3826
+msgid "Use pixel-buffer objects"
+msgstr "픽셀 버퍼 객체 사용"
+
+#: src/snes9x.ui:3831
+msgid "Can be faster or slower depending on drivers"
+msgstr "드라이버에 따라 속도가 빨라지거나 느려질 수 있음"
+
+#: src/snes9x.ui:3851
+msgid "Different formats can yield highly different performance"
+msgstr "서로 다른 포맷으로 인해 매우 다른 성능을 얻을 수 있음"
+
+#: src/snes9x.ui:3858
+msgid "Pixel-buffer format:"
+msgstr "픽셀 버퍼 형식:"
+
+#: src/snes9x.ui:3901
+msgid "Shader:"
+msgstr "셰이더 :"
+
+#: src/snes9x.ui:3965
+msgid "Force an inverted byte-ordering"
+msgstr "바이트 순서 반전 강제 적용"
+
+#: src/snes9x.ui:3969
+msgid ""
+"Forces a swapped byte-ordering for cases where the system's endian is used "
+"instead of the video card"
+msgstr ""
+"시스템의 Endian을 비디오 카드 대신 사용하는 경우 스왑 바이트 순서를 강제 적용"
+"합니다"
+
+#: src/snes9x.ui:3993
+msgid "Hardware Acceleration"
+msgstr "하드웨어 가속"
+
+#: src/snes9x.ui:4022
+msgid "Display"
+msgstr "디스플레이"
+
+#: src/snes9x.ui:4075
+msgid "Sound driver:"
+msgstr "사운드 드라이버 :"
+
+#: src/snes9x.ui:4110
+msgid "Automatically adjust input rate to display"
+msgstr "표시할 입력 속도 자동 조정"
+
+#: src/snes9x.ui:4114
+msgid "Sets the correct input rate based on the display's refresh rate"
+msgstr "디스플레이의 새로 고침 빈도를 기반으로 올바른 입력 속도를 설정합니다"
+
+#: src/snes9x.ui:4126
+msgid "Dynamic rate control"
+msgstr "동적 속도 제어"
+
+#: src/snes9x.ui:4130
+msgid "Smooth out slight hiccups in sound input rate"
+msgstr "사운드 입력 비율에서 경미한 문제를 부드럽게 출력합니다"
+
+#: src/snes9x.ui:4141
+msgid "Mute sound output"
+msgstr "사운드 출력 음소거"
+
+#: src/snes9x.ui:4145
+msgid "Disables output of sound"
+msgstr "사운드 출력 비활성화"
+
+#: src/snes9x.ui:4157
+msgid "Mute sound when using turbo"
+msgstr "터보 사용시 음소거"
+
+#: src/snes9x.ui:4161
+msgid "Disables output of sound when using turbo"
+msgstr "터보 사용시 사운드 출력 비활성화"
+
+#: src/snes9x.ui:4184
+msgid "Playback rate:"
+msgstr "재생 속도:"
+
+#: src/snes9x.ui:4218
+msgid "milliseconds"
+msgstr "밀리초"
+
+#: src/snes9x.ui:4241
+msgid "Buffer size:"
+msgstr "버퍼 크기:"
+
+#: src/snes9x.ui:4255
+msgid "Dynamic rate limit:"
+msgstr "동적 속도 제한:"
+
+#: src/snes9x.ui:4299
+msgid "Input rate:"
+msgstr "입력 속도:"
+
+#: src/snes9x.ui:4312
+msgid ""
+"Adjust to produce more or less data. Decrease the rate if experiencing "
+"crackling. Increase the rate if experiencing frame-rate stuttering. Best "
+"used with the \"Synchronize with sound\" option"
+msgstr ""
+"데이터를 더 많거나 적게 생성하도록 조정합니다. 균열이 발생하면 속도를 낮춥니"
+"다. 프레임 속도 끊김이 발생하면 속도를 높입니다. \"사운드와 동기화\" 옵션과 "
+"함께 사용하는 것이 가장 좋습니다"
+
+#: src/snes9x.ui:4361
+msgid "Video rate:"
+msgstr "화면 주사율:"
+
+#: src/snes9x.ui:4374
+msgid "label"
+msgstr "라벨"
+
+#: src/snes9x.ui:4399
+msgid "<b>Sound Settings</b>"
+msgstr "<b>사운드 설정</b>"
+
+#: src/snes9x.ui:4433 src/snes9x.ui:8674
+msgid "Sound"
+msgstr "사운드"
+
+#: src/snes9x.ui:4491
+msgid "Speed throttle:"
+msgstr "스로틀 속도 :"
+
+#: src/snes9x.ui:4527
+msgid "Block invalid VRAM access"
+msgstr "잘못된 VRAM 액세스 차단"
+
+#: src/snes9x.ui:4540
+msgid "Allow opposing dpad directions"
+msgstr "상하 또는 좌우의 동시 입력을 허용"
+
+#: src/snes9x.ui:4544
+msgid "Let left and right or up and down be pressed at the same time"
+msgstr "왼쪽과 오른쪽 또는 위쪽과 아래쪽을 동시에 누르세요"
+
+#: src/snes9x.ui:4555
+msgid "Overclock S-CPU hack (dangerous)"
+msgstr "오버클록 S-CPU 해킹(위험)"
+
+#: src/snes9x.ui:4559
+msgid "Reduce slowdown at severe accuracy cost"
+msgstr "엄격한 정확도 노력으로 성능 저하 감소"
+
+#: src/snes9x.ui:4570
+msgid "Remove sprite limit hack (dangerous)"
+msgstr "스프라이트 제한 해킹 제거(위험)"
+
+#: src/snes9x.ui:4574
+msgid "Will break games relying on proper behavior"
+msgstr "적절한 행동에 신뢰하여 게임을 중단합니다"
+
+#: src/snes9x.ui:4592
+msgid "SuperFX clock speed %:"
+msgstr "SuperFX 클럭 속도 % :"
+
+#: src/snes9x.ui:4634
+msgid "Rewind buffer size (MB):"
+msgstr "되감기 버퍼 크기 (MB):"
+
+#: src/snes9x.ui:4676
+msgid "Number of frames between rewind snapshots:"
+msgstr "역방향 스냅샷 사이의 프레임 수:"
+
+#: src/snes9x.ui:4717
+msgid "<b>Accuracy</b>"
+msgstr "<b>에뮬레이션의 정확성</b>"
+
+#: src/snes9x.ui:4748
+msgid "Pause emulation when switching away from Snes9x"
+msgstr "Snes9x에서 전환할 때 에뮬레이션 일시 중지"
+
+#: src/snes9x.ui:4769
+msgid "The ESC key should:"
+msgstr "ESC 키 :"
+
+#: src/snes9x.ui:4810
+msgid "<b>Window Switching</b>"
+msgstr "<b>창 전환</b>"
+
+#: src/snes9x.ui:4840
+msgid "Prevent the screensaver from activating"
+msgstr "화면 보호기가 활성화되지 않도록 방지"
+
+#: src/snes9x.ui:4860
+msgid "<b>Screensaver</b>"
+msgstr "<b>스크린 세이버</b>"
+
+#: src/snes9x.ui:4902 src/snes9x.ui:7091
+msgid "Emulation"
+msgstr "에뮬레이션"
+
+#: src/snes9x.ui:5143
+msgid "SRAM:"
+msgstr "SRAM:"
+
+#: src/snes9x.ui:5155
+msgid "Save states:"
+msgstr "상태 저장:"
+
+#: src/snes9x.ui:5169
+msgid "Cheats:"
+msgstr "치트:"
+
+#: src/snes9x.ui:5183
+msgid "Patches:"
+msgstr "패치:"
+
+#: src/snes9x.ui:5197
+msgid "Exports:"
+msgstr "내보내기 :"
+
+#: src/snes9x.ui:5221
+msgid "<b>Game Data Locations</b>"
+msgstr "<b>게임 데이터 위치</b>"
+
+#: src/snes9x.ui:5253
+msgid "Save SRAM:"
+msgstr "SRAM 저장:"
+
+#: src/snes9x.ui:5265
+msgid ""
+"Automatically save the game's SRAM at this interval. Setting this to 0 will "
+"only save when quitting or changing ROMs"
+msgstr ""
+"이 간격으로 게임의 SRAM을 자동 저장합니다. 이 값을 0으로 설정하면 ROM을 종료"
+"하거나 변경할 때만 저장됩니다"
+
+#: src/snes9x.ui:5284
+msgid "seconds after change"
+msgstr "초 당 저장"
+
+#: src/snes9x.ui:5300
+msgid "<b>Automatic Saving</b>"
+msgstr "<b>자동 저장</b>"
+
+#: src/snes9x.ui:5337
+msgid "Files"
+msgstr "파일"
+
+#: src/snes9x.ui:5368
+msgid "<b>Joypad:</b>"
+msgstr "<b>조이패드:</b>"
+
+#: src/snes9x.ui:5409
+msgid "_Reset"
+msgstr "초기화(_R)"
+
+#: src/snes9x.ui:5437
+msgid "Swap with:"
+msgstr "설정 교체:"
+
+#: src/snes9x.ui:5465
+msgid "_Swap"
+msgstr "교체(_S)"
+
+#: src/snes9x.ui:5487
+msgid "Use modifier keys (CTRL, SHIFT, ALT) directly"
+msgstr "수정 자 키 (CTRL, SHIFT, ALT)를 직접 사용"
+
+#: src/snes9x.ui:5491
+msgid "Allow using modifier keys as independent keys instead of modifiers"
+msgstr "수식어가 아닌 수식어 키를 독립 키로 사용할 수 있습니다"
+
+#: src/snes9x.ui:5525
+msgid "Up"
+msgstr "위"
+
+#: src/snes9x.ui:5537
+msgid "Down"
+msgstr "아래"
+
+#: src/snes9x.ui:5551
+msgid "Left"
+msgstr "왼쪽"
+
+#: src/snes9x.ui:5565
+msgid "Right"
+msgstr "오른쪽"
+
+#: src/snes9x.ui:5579
+msgid "Start"
+msgstr "시작"
+
+#: src/snes9x.ui:5593
+msgid "Select"
+msgstr "선택"
+
+#: src/snes9x.ui:5734 src/snes9x.ui:5964 src/snes9x.ui:6176
+msgid "A"
+msgstr "A"
+
+#: src/snes9x.ui:5746 src/snes9x.ui:5976 src/snes9x.ui:6188
+msgid "B"
+msgstr "B"
+
+#: src/snes9x.ui:5760 src/snes9x.ui:5990 src/snes9x.ui:6202
+msgid "X"
+msgstr "X"
+
+#: src/snes9x.ui:5774 src/snes9x.ui:6004 src/snes9x.ui:6216
+msgid "Y"
+msgstr "Y"
+
+#: src/snes9x.ui:5788 src/snes9x.ui:6018 src/snes9x.ui:6230
+msgid "L"
+msgstr "L"
+
+#: src/snes9x.ui:5802 src/snes9x.ui:6032 src/snes9x.ui:6244
+msgid "R"
+msgstr "R"
+
+#: src/snes9x.ui:5936
+msgid "Buttons"
+msgstr "버튼"
+
+#: src/snes9x.ui:6377
+msgid "<b>Sticky</b>"
+msgstr "<b>누르고 있기</b>"
+
+#: src/snes9x.ui:6393
+msgid "<b>Turbo</b>"
+msgstr "<b>터보</b>"
+
+#: src/snes9x.ui:6412
+msgid "Turbo / Sticky Buttons"
+msgstr "터보 / 누르고 있기"
+
+#: src/snes9x.ui:6449
+msgid "Set new axis bindings at:"
+msgstr "다음에서 새 축 바인딩 설정:"
+
+#: src/snes9x.ui:6461
+msgid ""
+"Changes the amount a joystick should be tilted to register a button press"
+msgstr "버튼 누르기를 등록하기 위해 조이스틱의 감도를 변경 합니다"
+
+#: src/snes9x.ui:6480
+msgid "percent"
+msgstr "%"
+
+#: src/snes9x.ui:6497
+msgid "<b>Joystick Axis Threshold</b>"
+msgstr "<b>Joystick Axis Threshold</b>"
+
+#: src/snes9x.ui:6534
+msgid "Center all axes on all joysticks and press Calibrate."
+msgstr "Center all axes on all joysticks and press Calibrate."
+
+#: src/snes9x.ui:6549
+msgid "Cali_brate"
+msgstr "보정(_b)"
+
+#: src/snes9x.ui:6582
+msgid "<b>Calibration</b>"
+msgstr "<b>조정</b>"
+
+#: src/snes9x.ui:6603
+msgid "Joystick Options"
+msgstr "조이스틱 옵션"
+
+#: src/snes9x.ui:6621 src/snes9x.ui:8973
+msgid ""
+"<small>Click an entry and then press the desired keys or joystick button\n"
+"<i>Escape</i>: Move to next<i>  Shift-Escape</i>: Clear selected</small>"
+msgstr ""
+"<small>항목을 클릭한 다음 원하는 키 또는 조이스틱 버튼을 누릅니다\n"
+"<i>ESC</i>: 다음으로 이동 <i>Shift+ESC</i>: 선택 해제</small>"
+
+#: src/snes9x.ui:6659
+msgid "Joypads"
+msgstr "조이패드"
+
+#: src/snes9x.ui:6686
+msgid "<b>Snes9x Emulator Shortcut Keys</b>"
+msgstr "<b>Snes9x 에뮬레이터 바로 가기 키</b>"
+
+#: src/snes9x.ui:6737
+msgid "Soft reset"
+msgstr "소프트 리셋"
+
+#: src/snes9x.ui:6751
+msgid "Hardware reset"
+msgstr "하드웨어 초기화"
+
+#: src/snes9x.ui:6765
+msgid "Increase frame time"
+msgstr "프레임 시간 증가"
+
+#: src/snes9x.ui:6779
+msgid "Decrease frame time"
+msgstr "프레임 시간 단축"
+
+#: src/snes9x.ui:6793
+msgid "Increase frame rate"
+msgstr "프레임 속도 증가"
+
+#: src/snes9x.ui:6807
+msgid "Decrease frame rate"
+msgstr "프레임 속도 감소"
+
+#: src/snes9x.ui:6821
+msgid "Pause"
+msgstr "일시 중지"
+
+#: src/snes9x.ui:6835
+msgid "Toggle turbo"
+msgstr "터보 켜기/끄기"
+
+#: src/snes9x.ui:6849
+msgid "Enable turbo"
+msgstr "터보 활성화"
+
+#: src/snes9x.ui:6864
+msgid "Open ROM"
+msgstr "ROM 열기"
+
+#: src/snes9x.ui:7123
+msgid "Toggle BG layer 0"
+msgstr "배경 레이어 0 표시/숨기기"
+
+#: src/snes9x.ui:7135
+msgid "Toggle BG layer 1"
+msgstr "배경 레이어 1 표시/숨기기"
+
+#: src/snes9x.ui:7149
+msgid "Toggle BG layer 2"
+msgstr "배경 레이어 2 표시/숨기기"
+
+#: src/snes9x.ui:7163
+msgid "Toggle BG layer 3"
+msgstr "배경 레이어 3 표시/숨기기"
+
+#: src/snes9x.ui:7177
+msgid "Toggle sprites"
+msgstr "스프라이트 전환"
+
+#: src/snes9x.ui:7191
+msgid "BG layering hack"
+msgstr "배경 계층화 해킹"
+
+#: src/snes9x.ui:7205
+msgid "Screenshot"
+msgstr "스크린샷"
+
+#: src/snes9x.ui:7219
+msgid "Toggle fullscreen"
+msgstr "전체 화면 전환"
+
+#: src/snes9x.ui:7383
+msgid "Graphics"
+msgstr "그래픽"
+
+#: src/snes9x.ui:7420
+msgid "Save current slot"
+msgstr "현재 슬롯 저장하기"
+
+#: src/snes9x.ui:7453
+msgid "Load current slot"
+msgstr "현재 슬롯 불러오기"
+
+#: src/snes9x.ui:7486
+msgid "Increment and save"
+msgstr "증가 및 저장하기"
+
+#: src/snes9x.ui:7519
+msgid "Decrement and load"
+msgstr "감소 및 불러오기"
+
+#: src/snes9x.ui:7552
+msgid "Increment slot"
+msgstr "증가 슬롯"
+
+#: src/snes9x.ui:7585
+msgid "Decrement slot"
+msgstr "슬롯 감소"
+
+#: src/snes9x.ui:7629
+msgid "<b>Quick save state</b>"
+msgstr "<b>빠른 게임 저장하기</b>"
+
+#: src/snes9x.ui:7644
+msgid "<b>Quick load state</b>"
+msgstr "<b>빠른 게임 불러오기</b>"
+
+#: src/snes9x.ui:7659 src/snes9x.ui:7799
+msgid "Slot 0"
+msgstr "슬롯 0"
+
+#: src/snes9x.ui:7673 src/snes9x.ui:7815
+msgid "Slot 1"
+msgstr "슬롯 1"
+
+#: src/snes9x.ui:7687 src/snes9x.ui:7831
+msgid "Slot 2"
+msgstr "슬롯 2"
+
+#: src/snes9x.ui:7701 src/snes9x.ui:7847
+msgid "Slot 3"
+msgstr "슬롯 3"
+
+#: src/snes9x.ui:7715 src/snes9x.ui:7863
+msgid "Slot 4"
+msgstr "슬롯 4"
+
+#: src/snes9x.ui:7729 src/snes9x.ui:7879
+msgid "Slot 5"
+msgstr "슬롯 5"
+
+#: src/snes9x.ui:7743 src/snes9x.ui:7895
+msgid "Slot 6"
+msgstr "슬롯 6"
+
+#: src/snes9x.ui:7757 src/snes9x.ui:7911
+msgid "Slot 7"
+msgstr "슬롯 7"
+
+#: src/snes9x.ui:7771 src/snes9x.ui:7927
+msgid "Slot 8"
+msgstr "슬롯 8"
+
+#: src/snes9x.ui:7785 src/snes9x.ui:7943
+msgid "Slot 9"
+msgstr "슬롯 9"
+
+#: src/snes9x.ui:8382
+msgid "Toggle sound channel 0"
+msgstr "모든 음성 채널 0 켜기/끄기"
+
+#: src/snes9x.ui:8394
+msgid "Toggle sound channel 1"
+msgstr "모든 음성 채널 1 켜기/끄기"
+
+#: src/snes9x.ui:8408
+msgid "Toggle sound channel 2"
+msgstr "모든 음성 채널 2 켜기/끄기"
+
+#: src/snes9x.ui:8422
+msgid "Toggle sound channel 3"
+msgstr "모든 음성 채널 3 켜기/끄기"
+
+#: src/snes9x.ui:8436
+msgid "Toggle sound channel 4"
+msgstr "모든 음성 채널 4 켜기/끄기"
+
+#: src/snes9x.ui:8450
+msgid "Toggle sound channel 5"
+msgstr "모든 음성 채널 5 켜기/끄기"
+
+#: src/snes9x.ui:8464
+msgid "Toggle sound channel 6"
+msgstr "모든 음성 채널 6 켜기/끄기"
+
+#: src/snes9x.ui:8478
+msgid "Toggle sound channel 7"
+msgstr "모든 음성 채널 7 켜기/끄기"
+
+#: src/snes9x.ui:8492
+msgid "Toggle all sound channels"
+msgstr "모든 음성 채널 켜기/끄기"
+
+#: src/snes9x.ui:8697
+msgid "Seek to frame"
+msgstr "프레임 탐색"
+
+#: src/snes9x.ui:8712
+msgid "Load Movie"
+msgstr "동영상 불러오기"
+
+#: src/snes9x.ui:8727
+msgid "Stop movie recording"
+msgstr "동영상 녹화 중지"
+
+#: src/snes9x.ui:8742
+msgid "Begin movie recording"
+msgstr "동영상 녹화 시작"
+
+#: src/snes9x.ui:8757
+msgid "Save SPC"
+msgstr "SPC 저장"
+
+#: src/snes9x.ui:8857
+msgid "Swap controllers 1 & 2"
+msgstr "컨트롤러 1과 2를 전환"
+
+#: src/snes9x.ui:8888
+msgid "Rewind"
+msgstr "되감기"
+
+#: src/snes9x.ui:8919
+msgid "Capture/release mouse"
+msgstr "마우스 캡처/해제"
+
+#: src/snes9x.ui:8955
+msgid "Misc"
+msgstr "기타"
+
+#: src/snes9x.ui:9011
+msgid "Shortcuts"
+msgstr "바로 가기"
+
+#: src/snes9x.ui:9045
+msgid ""
+"  Snes9x - Portable Super Nintendo Entertainment System (TM) emulator.\n"
+"\n"
+"  Snes9x homepage: http://www.snes9x.com/\n"
+"  Snes9x source code: https://github.com/snes9xgit/snes9x/\n"
+"\n"
+"  Permission to use, copy, modify and/or distribute Snes9x in both binary\n"
+"  and source form, for non-commercial purposes, is hereby granted without\n"
+"  fee, providing that this license information and copyright notice appear\n"
+"  with all copies and any derived work.\n"
+"\n"
+"  This software is provided 'as-is', without any express or implied\n"
+"  warranty. In no event shall the authors be held liable for any damages\n"
+"  arising from the use of this software or it's derivatives.\n"
+"\n"
+"  Snes9x is freeware for PERSONAL USE only. Commercial users should\n"
+"  seek permission of the copyright holders first. Commercial use includes,\n"
+"  but is not limited to, charging money for Snes9x or software derived from\n"
+"  Snes9x, including Snes9x or derivatives in commercial game bundles, and/"
+"or\n"
+"  using Snes9x as a promotion for your commercial product.\n"
+"\n"
+"  The copyright holders request that bug fixes and improvements to the code\n"
+"  should be forwarded to them so everyone can benefit from the "
+"modifications\n"
+"  in future versions.\n"
+"\n"
+"  Super NES and Super Nintendo Entertainment System are trademarks of\n"
+"  Nintendo Co., Limited and its subsidiary companies."
+msgstr ""
+"  Snes9x - 휴대용 Super Nintendo Entertainment System(TM) 에뮬레이터.\n"
+"\n"
+"  Snes9x 홈페이지: http://www.snes9x.com\n"
+" Snes9x 소스 코드: https://github.com/snes9xgit/snes9x/\n"
+"\n"
+" Snes9x를 바이너리 및 소스 형식으로 사용, 복사, 수정이나 또는 배포할 수 있는 "
+"권한은\n"
+" 비상업적 목적을 위해 이 라이센스 정보 및 저작권 표시가 모든 복사본 및 파생 "
+"저작물과\n"
+" 함께 표시되는 경우 무료로 부여됩니다.\n"
+"\n"
+" 이 소프트웨어는 명시적 또는 묵시적 보증없이 '있는 그대로'제공됩니다.\n"
+" 어떠한 경우에도 저자는 이 소프트웨어 또는 파생 상품의 사용으로 인해 발생하"
+"는\n"
+" 모든 손해에 대해 책임을 지지 않습니다.\n"
+"\n"
+" Snes9x 개인 용도로만 사용할 수있는 프리웨어입니다.\n"
+" 상업적 사용자는 먼저 저작권자의 허가를 받아야합니다.\n"
+" 상업적 용도로는 Snes9x 또는 Snes9x에서 파생된 소프트웨어(상용 게임 번들의\n"
+" Snes9x 또는 파생 상품 포함) 및 / 또는 Snes9x를 상용 제품에 대한 프로모션으"
+"로\n"
+" 사용하는 것을 포함하되 이에 국한되지 않습니다.\n"
+"\n"
+" 저작권 소유자는 모든 사용자가 향후 버전에서 수정의 혜택을 누릴 수 있도록,\n"
+" 버그 수정과 코드의 개선 사항을 자신들에게 전달해 줄 것을 요청해야 합니다.\n"
+"\n"
+" Super NES 및 Super Nintendo Entertainment System은\n"
+" Nintendo Co., Limited 및 자회사의 상표입니다."
